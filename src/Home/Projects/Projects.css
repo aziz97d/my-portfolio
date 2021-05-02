@@ -1,0 +1,38 @@
+.use-technology .tech-icon{
+    font-size: 40px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    color: #fff;
+    padding: 4px;
+    border-radius: 60px;
+    background-color: rgb(33, 150, 243);
+}
+.use-technology .tech-icon:hover{
+    transform: scale(1.2);
+}
+.use-technology{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding-top: 5px;
+    border-top: 1px dashed gray;
+}
+.element-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.element-bottom a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: rgb(33, 150, 243);
+    border-radius: 20px;
+}
+.element-bottom .element-bottom-icon{
+    margin-right: 5px;
+    font-size: 25px;
+}

@@ -1,0 +1,52 @@
+.profile img{
+    width: 100%;
+}
+.profile .profile-head{
+    text-align: center;
+    margin: 20px 0;
+}
+.profile .profile-head h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.profile .profile-head p{
+    font-size: 18px;
+}
+
+.profile .profile-bottom{
+    height: 120px;
+    border-top: 1px dashed gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px;
+}
+.profile .profile-bottom .social-info .social-icon{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 2px 5px;
+    color: rgb(33, 150, 243);
+}
+.profile .profile-bottom .social-info .social-icon:hover{
+    border: 1px dashed grey;
+    transform: scale(1.3);
+}
+
+.profile .profile-bottom .download-btn{
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin: 5px 10px;
+    background-color:rgb(33, 150, 243);
+    color:white;
+    text-decoration: none;
+}

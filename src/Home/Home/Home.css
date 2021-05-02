@@ -1,0 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./../../images/background.jpg');
+}
+
+.profile,.header, .main-content{
+    /* background-color: aquamarine; */
+    background-color: #E3E3E3;
+    
+    box-shadow: 0 5px 30px rgb(163, 162, 162);
+}
+.profile{
+    grid-row-start: 1;
+    grid-row-end: 7;
+    height: 550px;
+    display: grid;
+    align-content: space-between;
+    /* grid-area: profile; */
+}
+.header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 80px;
+    /* grid-area: header; */
+}
+.main-content{
+    grid-row-start: 2;
+    grid-row-end: auto;
+    /* grid-area: main-content; */
+}
+.test{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+/* profile section start */
+
+/* profile section end */
+/* Header section start*/
+.header ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header ul li{
+    list-style: none;
+    font-size: 20px;
+    height: 100%;
+    border-right: 1px dashed gray;
+    padding: 0 20px;
+    color: rgb(33, 150, 243);
+}
+
+.header ul li:hover{
+    border-bottom: rgb(33, 150, 243) 2px solid;
+}
+.header ul li .menu-item{
+    height: 100%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+}
+.header ul li .menu-item .menu-item-icon{
+    margin-right: 5px;
+}
+/* Header section end*/
+.main-content .content-title{
+    height: 80px;
+    border-bottom: 1px dashed gray;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.main-content .content-body{
+    padding: 15px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: 2fr 7fr;
+        grid-template-rows: 1fr 5fr;
+        height: 80vh;
+        grid-gap: 20px;
+        padding: 50px 90px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    /* .container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'profile'
+        'header'
+        'main-content';
+    } */
+
+    .container{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        font-size: .7rem;
+    }
+    .header ul{
+        display: none;
+    }
+  }
