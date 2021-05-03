@@ -28,7 +28,6 @@ const Projects = () => {
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: '#fff', color: 'rgb(33, 150, 243)' }}
                         contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-                        date="2011 - present"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaBeer />}
                     >
@@ -55,7 +54,7 @@ const Projects = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2010 - 2011"
+                        date=""
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
                     >
@@ -81,7 +80,7 @@ const Projects = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        date="2006 - 2008"
+                        date=""
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<FaBeer />}
                     >
@@ -107,7 +106,7 @@ const Projects = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
-                        date="April 2013"
+                        date=""
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<FaBeer />}
                     >
@@ -157,22 +156,8 @@ const Projects = () => {
                             <a href="https://github.com/aziz97d/simple-react-player-info"><DiGithubBadge className="element-bottom-icon" /> GitHub</a>
                         </div>
                     </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--education"
-                        date="2002 - 2006"
-                        iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                        icon={<FaBeer />}
-                    >
-                        <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                        <p>
-                            Creative Direction, Visual Design
-    </p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-                        icon={<FaBeer />}
-                    />
+
+
                 </VerticalTimeline>
 
 

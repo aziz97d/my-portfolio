@@ -1,0 +1,47 @@
+.contact-body{
+    display: flex;
+    width: 100%;
+}
+.contact-form,.contact-info{
+    width: 50%;
+    padding: 25px;
+}
+
+.contact-form input[type="text"],textarea,input[type="submit"]{
+    margin-top: 18px;
+    width: 100%;
+    padding: 15px;
+    background-color: #E3E3E3;
+    font-size: 16px;
+    border: 1px solid grey;
+}
+.contact-form input[type="submit"]{
+    width: 50%;
+    background-color: rgb(33, 150, 243);
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:white;
+    border: none;
+}
+
+.contact-info p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.social-info{
+    margin-top: 20px;
+}
+.contact-info .social-info .social-icon{
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 2px 5px;
+    color: rgb(33, 150, 243);
+}
+.contact-info .social-info .social-icon:hover{
+    border: 1px dashed grey;
+    transform: scale(1.3);
+}
