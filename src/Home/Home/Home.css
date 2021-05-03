@@ -13,9 +13,11 @@ body{
     background-color: #E3E3E3;
     
     box-shadow: 0 5px 30px rgb(163, 162, 162);
+
     
   /* animation: contentAnimation 0.3s ; */
 }
+
 .profile{
     grid-row-start: 1;
     grid-row-end: 7;

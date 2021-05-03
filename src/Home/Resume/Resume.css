@@ -4,7 +4,7 @@
     border-radius: 15px;
   }
   .resume-title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: sans-serif;
 
   }
@@ -27,8 +27,8 @@
   }
   .sessions li:before{
     content: '';
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background: white;
     border: 2px solid rgb(33, 150, 243);
     /* box-shadow: 3px 3px 0px #bab5f8;
@@ -61,6 +61,7 @@
         font-family: sans-serif;
     line-height: 1.5;
     margin-top:0.4rem;
+    font-size: 0.8rem;
     /* @include mobile-only{
       font-size: .9rem;
     } */

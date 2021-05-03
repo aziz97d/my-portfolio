@@ -7,10 +7,11 @@ const AboutMe = () => {
                 <h2>About Me</h2>
             </div>
             <div class="content-body">
-                <h3>I'm Front End Developer</h3>
+                <h3>I'm Junior Web Developer</h3>
+                <p>I have enough knowledge of hands-on efficiently coding websites and applications using modern HTML, CSS, JavaScript, Reactjs, and Nodejs. Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine.</p>
                 <p>To join a company that offers a constructive atmosphere that inspires me to invariably enhance
                 & innovate the work culture for the betterment of the workplace, technologies involved,
-communication, and interaction</p>
+communication, and interaction.</p>
                 <br />
        
                 <div className="skills">

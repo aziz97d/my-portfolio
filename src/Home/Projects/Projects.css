@@ -13,13 +13,22 @@
 .use-technology{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 15px;
     padding-top: 5px;
     border-top: 1px dashed gray;
 }
+.use-technology .tech-item{
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(33, 150, 243);
+    padding: 4px 15px;
+    border-radius: 60px;
+    background-color: #E3E3E3;
+}
 .element-bottom{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .element-bottom a{
     display: flex;
@@ -29,7 +38,12 @@
     color: #fff;
     padding: 5px 10px;
     background-color: rgb(33, 150, 243);
-    border-radius: 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+.element-bottom a:hover{
+    transform: scale(1.05);
 }
 .element-bottom .element-bottom-icon{
     margin-right: 5px;
