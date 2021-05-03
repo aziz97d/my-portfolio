@@ -13,6 +13,8 @@ body{
     background-color: #E3E3E3;
     
     box-shadow: 0 5px 30px rgb(163, 162, 162);
+    
+  /* animation: contentAnimation 0.3s ; */
 }
 .profile{
     grid-row-start: 1;
@@ -82,6 +84,28 @@ body{
 .main-content .content-body{
     padding: 15px;
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(33, 150, 243);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
 
 
 @media only screen and (min-width: 600px) {
@@ -113,4 +137,13 @@ body{
     .header ul{
         display: none;
     }
-  }
+  }  
+  
+  /* @keyframes contentAnimation {
+    from {
+      margin-top: 200%;
+    }
+    to{
+      margin-top: 0;
+    }
+  } */

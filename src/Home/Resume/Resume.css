@@ -25,7 +25,7 @@
     margin-left: 10px;
     list-style: none;
   }
-  li:before{
+  .sessions li:before{
     content: '';
     width: 25px;
     height: 25px;
@@ -38,7 +38,7 @@
     left: -14px;
     top: 0px;
   }
-  li:last-child{
+  .sessions li:last-child{
     border: 0px;
     padding-bottom: 0;
   }
@@ -65,3 +65,4 @@
       font-size: .9rem;
     } */
   }
+
